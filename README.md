@@ -14,6 +14,7 @@ Hello ! Here is a quick step-by-step tutorial to get started on a new React proj
 - Run ```npm install eslint --save-dev``` to install [**ESLint**](https://eslint.org/) and dependencies.
 - Run ```npx @becode/eslint-config --with-hook``` if you want to configure **ESLint** with [BeCode](https://www.becode.org/) formation configuration.
 - If working with [**Git**](https://github.com/), run ```echo "/node_modules" > .gitignore``` to initialise a new *.gitignore* file and add new exception for the */node_modules* folder.
+- Also add exception for the */dist* folder, run ```echo "/dist" > .gitignore```
 ### Step 3 - Create the project architecture :
 - Run ```touch index.html``` to create the html file wich will be the entry point of the App.
 - Run ```mkdir src && touch src/index.js``` to create *index.js* file inside the *src* folder.
