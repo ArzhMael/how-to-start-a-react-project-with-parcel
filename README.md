@@ -44,7 +44,7 @@ Hello ! Here is a quick step-by-step tutorial to get started on a new React proj
 - Run ```mkdir scss && touch scss/app.scss``` to create the stylesheet.
 - Add the following line to *src/index.js*
 ```
-import "./scss/app.scss";
+import "../scss/app.scss";
 ```
 ### Step 6 - Configure package.json :
 - Add the following lines in the *package.json* file.
