@@ -18,6 +18,15 @@ Hello ! Here is a quick step-by-step tutorial to get started on a new React proj
 ### Step 3 - Create the project architecture :
 - Run ```touch index.html``` to create the html file wich will be the entry point of the App.
 - Run ```mkdir src && touch src/index.js``` to create *index.js* file inside the *src* folder.
+- Add the following lines as in your *index.html* file.
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <script src="./index.js"></script>
+    </body>
+</html>
+```
 - Run ```mkdir components``` to create the folder wich will contains our **React** *components*.
 ### Step 4 - Install React :
 - Run ```npm i react``` to install [React](https://reactjs.org/) and dependencies.
