@@ -48,7 +48,7 @@ import "./scss/app.scss";
 Your app is ready to go, just run ```npm start``` !
 It's currently empty but you can add any **HTML** (in index.html), **CSS** (in scss/app.scss) or create **React Components** (in components) as you wish !   
   
-If you want to have a quick look, checking if everything works, just copy thoses lines and create this *HelloMessage.js React component*.
+If you want to have a quick look, checking if everything works, just copy thoses lines and create this *HelloMessage React component*.
 
 ###### index.html
 ```html
@@ -68,7 +68,7 @@ If you want to have a quick look, checking if everything works, just copy thoses
 import React from "react";
 import ReactDOM from "react-dom";
 
-import HelloMessage from "../components/HelloMessage";
+import HelloMessage from "../components/hello-message";
 
 const App = document.querySelector("#app");
 ReactDOM.render(<HelloMessage name={"Yomi"} />, App);
@@ -86,7 +86,7 @@ body {
     }
 }
 ```
-###### components/HelloMessage.js
+###### components/hello-message.js
 ```javascript
 import React from "react";
 
