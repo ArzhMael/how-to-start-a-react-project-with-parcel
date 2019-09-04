@@ -23,7 +23,7 @@ Hello ! Here is a quick step-by-step tutorial to get started on a new React proj
 <!DOCTYPE html>
 <html>
     <body>
-        <script src="./index.js"></script>
+        <script src="./src/index.js"></script>
     </body>
 </html>
 ```
